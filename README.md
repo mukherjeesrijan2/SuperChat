@@ -1,1 +1,1 @@
-# SuperGroupChat
+# SuperChat
