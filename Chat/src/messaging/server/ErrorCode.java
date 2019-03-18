@@ -1,5 +1,9 @@
 package messaging.server;
 
+/**
+ * Enum containing possible errors
+ * @author Srijan Mukherjee
+ */
 public enum ErrorCode {
     PORT_ASSIGN_ERROR(100),
     SERVER_START_ERROR(1000);

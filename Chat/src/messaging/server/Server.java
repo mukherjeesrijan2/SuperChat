@@ -50,7 +50,6 @@ public abstract class Server {
     /**
      * This method starts the server
     */
-    
     public void start() {
         try {
             ServerSocket server = new ServerSocket(this.port);
@@ -60,5 +59,4 @@ public abstract class Server {
             System.exit(ErrorCode.SERVER_START_ERROR.getCode());
         }
     }
-    
 }
